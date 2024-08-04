@@ -1,0 +1,17 @@
+{
+"rewrites": [
+    { "source": "/account", "destination": "/account"},
+    { "source": "/testing", "destination": "/testing"},
+    { "source": "/analytics", "destination": "/analytics"},
+    { "source": "/chatbot-settings", "destination": "/chatbot-settings"},
+    { "source": "/knowledge-source", "destination": "/knowledge-source"},
+    { "source": "/knowledge-source/data-item-1", "destination": "/knowledge-source/data-item-1"},
+    { "source": "/knowledge-source/data-item-2", "destination": "/knowledge-source/data-item-2"},
+    { "source": "/knowledge-source/data-item-3", "destination": "/knowledge-source/data-item-3"},
+    { "source": "/knowledge-source/data-item-4", "destination": "/knowledge-source/data-item-4"},
+    { "source": "/knowledge-source/data-item-5", "destination": "/knowledge-source/data-item-5"},
+    { "source": "/analytics", "destination": "/analytics"},
+    { "source": "/(.*)", "destination": "/" }
+]
+}
+  
